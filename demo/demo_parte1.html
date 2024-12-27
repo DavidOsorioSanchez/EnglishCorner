@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Academy The English Corner</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Free Website Template" name="keywords">
+        <meta content="Free Website Template" name="description">
+    <link href="../img/school.png" rel="icon">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/Demo.css" rel="stylesheet">
+    </head>
+    <body>
+        <center><h1 class="bien" style="background-color: white;">Bienvenido!</h1></center>
+        <center><iframe width="70%" height="500px" src="https://www.youtube.com/embed/g94dqnuc3XE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+        <center><button onclick="web(1)" type="button" style="width: 180px; height:90px;" class="btn btn-outline-light btn-lg"><i class="far fa-share-square horizontal"></i> retroceder</button><button type="button" style="width: 180px; height:90px;" href="demo_parte2.com" class="btn btn-outline-light btn-lg " onclick="web(2)" >siguiente <i class="far fa-check-square"></i></button></center>
+        <script>
+            function web(cur){
+                switch (cur) {
+                    case 1:// atras
+                        window.location.href = "../index.html";
+                        break;
+                    case 2:// adelante
+                        window.location.href = "demo_parte2.html";
+                        break;
+                }
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,24 @@
+body{
+  background-image: url('../img/mi.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+
+.imagen{
+  left: 33%;
+  width: 35%;
+  position: relative;
+  border-radius: 5%;
+}
+
+#number {
+  font-size:50px;
+  color:#434343;
+  right: 0px; 
+  top: 0px; 
+  position: absolute;
+}
+

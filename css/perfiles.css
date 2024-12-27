@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(63, 138, 224);
+}
+
+.image{ 
+    height: 350px;
+    width: 100%;
+    background-image: linear-gradient(
+      rgba(25, 209, 231, 0.5),
+      rgba(221, 155, 56, 0.589)
+    );
+    z-index: -1;
+    background-size: 1;
+}
+
+.perfil{
+    width:300px; 
+    position: absolute;
+    border-radius: 50%;
+    z-index: 1;
+    top: 195px;
+    left: 530px;
+}
+
+.titulo1{
+    position: absolute;
+    top: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgba(75, 75, 75, 0.527);
+}
+
+.titulo2{
+    position: absolute;
+    top: 120px;
+    text-align: center;
+    color: white;
+    background-color: rgba(75, 75, 75, 0.527);
+}
+.card1{
+    width: 530px !important;
+    height: 400px;
+    border-radius: 15px;
+    top: 500px;
+    left: 100px;
+    background-color: white;
+}
+
+.card2{
+    width: 530px !important;
+    height: 400px;
+    border-radius: 15px;
+    top: 500px;
+    background-color: white;
+}
+.card3{
+    width: 289px;
+}
